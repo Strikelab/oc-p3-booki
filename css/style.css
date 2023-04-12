@@ -580,6 +580,10 @@ footer ul {
 
   .filterbar-btn {
     width: calc(100% / 2);
+    /* Modification  soutenance */
+    justify-content:center;
+    padding:0;
+
   }
 
   /******** hebergements-ans-populaires *****************/
@@ -674,24 +678,3 @@ footer ul {
   }
 }
 
-/******** display corrections post soutenance ***********/
-/* small devices (tablets, less than 370px) */
-@media (max-width: 369.98px) {
-  /* Group-info */
-  /* searchbar */
-  a.filterbar-btn {
-    padding-right: 0;
-  }
-}
-
-/* small devices (tablets, less/equal than 320px) */
-/* Group-info */
-/* searchbar */
-@media (max-width: 320px) {
-  a.filterbar-btn {
-    padding-left: 0;
-    justify-content: center;
-  }
-}
-
-/******** *********************************** ***********/
